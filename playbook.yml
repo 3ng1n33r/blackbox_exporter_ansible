@@ -1,0 +1,7 @@
+---
+- name: Install and configure blackbox_exporter. 
+  hosts: all
+  become: true
+
+  roles:
+    - blackbox_exporter
